@@ -1,8 +1,9 @@
 using System.Numerics;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Player : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
 
     
@@ -16,7 +17,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float forwardInput;
-        float rightInput;
+        float forwardInput = Input.GetAxis("Vertical");
+        float rightInput = Input.GetAxis("Horizontal");
     }
 }
