@@ -21,8 +21,6 @@ public class FirstPersonCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Quaternion newRotation = Quaternion.Euler(xAxis, yAxis, 0f);
-
-        Camera.main.transform.position = newRotation;
+        
     }
 }
